@@ -12,3 +12,6 @@ java {
 	}
 }
 
+dependencies {
+    implementation project(':app-be-appointment-management-domain')
+}
