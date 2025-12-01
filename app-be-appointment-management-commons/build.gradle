@@ -1,0 +1,14 @@
+plugins {
+	id 'java'
+}
+
+group = 'com.marda.arch.hex'
+version = '0.0.1-SNAPSHOT'
+description = 'Commons'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+

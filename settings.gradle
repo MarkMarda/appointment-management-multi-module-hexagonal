@@ -3,3 +3,5 @@ rootProject.name = 'app-be-appointment-management-multi-module'
 include('app-be-appointment-management-domain')
 include('app-be-appointment-management-application')
 include('app-be-appointment-management-adapter-out-dbs-sql-mysql')
+include('app-be-appointment-management-adapter-in-rest')
+include('app-be-appointment-management-commons')
