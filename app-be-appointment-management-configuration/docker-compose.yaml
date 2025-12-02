@@ -1,0 +1,24 @@
+services:
+  appointment-management-multimodule:
+    image: mysql:9.3.0
+    env_file:
+      - .env
+    restart: always
+    ports:
+      - 3308:3306
+    expose:
+      # Expose Docker port
+      - 3306
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      #MYSQL_USER: ${USERNAME_DB}
+      MYSQL_DATABASE: ${DATABASE_NAME}
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+    volumes:
+      - db_appointment_management_multimodule:/var/lib/mysql
+
+volumes:
+  db_appointment_management_multimodule:

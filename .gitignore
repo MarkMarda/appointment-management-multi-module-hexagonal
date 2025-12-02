@@ -37,6 +37,7 @@ out/
 .vscode/
 
 ### ENV ###
+app-be-appointment-management-configuration/.env
 .env
 
 ### VOLUMES ###

@@ -1,0 +1,3 @@
+insert into tbl_schedule(state_register, date, doctor_id, speciality_id, state_schedule, schedule_final, schedule_initial) value(1, '2025-10-18', 1, 1, 1, '2025-10-18 10:15', '2025-10-18 10:00')
+insert into tbl_schedule(state_register, date, doctor_id, speciality_id, state_schedule, schedule_final, schedule_initial) value(1, '2025-10-18', 1, 2, 1, '2025-10-18 10:30', '2025-10-18 10:15')
+insert into tbl_schedule(state_register, date, doctor_id, speciality_id, state_schedule, schedule_final, schedule_initial) value(1, '2025-10-18', 2, 3, 1, '2025-10-18 10:30', '2025-10-18 10:15')
