@@ -5,8 +5,8 @@ import com.marda.arch.hex.app_be_appointment_management_domain.schedule.Schedule
 
 import java.util.List;
 
-import static com.marda.arch.hex.adapter.commons.utils.DateUtil.dateStr;
-import static com.marda.arch.hex.adapter.commons.utils.DateUtil.timeStr;
+import static com.marda.arch.hex.app_be_appointment_management_commons.adapter.commons.utils.DateUtil.dateStr;
+import static com.marda.arch.hex.app_be_appointment_management_commons.adapter.commons.utils.DateUtil.timeStr;
 
 
 //@Component In configuration

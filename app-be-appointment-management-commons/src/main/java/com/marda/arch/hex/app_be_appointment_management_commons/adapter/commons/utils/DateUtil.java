@@ -1,4 +1,4 @@
-package com.marda.arch.hex.adapter.commons.utils;
+package com.marda.arch.hex.app_be_appointment_management_commons.adapter.commons.utils;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
